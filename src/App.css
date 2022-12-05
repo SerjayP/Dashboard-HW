@@ -1,10 +1,5 @@
-html {
-  background: #f8f7f7;
-}
-
 .container {
   background-color: #f7f7f6;
-  display: flex; /* or inline-flex */
   margin: 15%
 }
 .sidebar {
@@ -12,16 +7,13 @@ html {
   background-color: #dddddd;
   width: 25%;
   text-align: center;
-  /* justify-content: center; */
   align-items: center;
 }
 
 ul {
   padding: 1%;
   list-style-type: none;
-  /* text-align: center; */
   font-weight: bolder;
-  /* display: grid; */
 }
 .average, .reviews, .sentiment{
 
@@ -35,7 +27,7 @@ ul {
 }
 
 .topBar {
-  /* display: inline-block; */
+
   display: flex;
   justify-content: space-between;
   
@@ -49,9 +41,6 @@ h4 {
 .website {
   background-color: #dddddd;
   height: 30vh;
-  /* margin-bottom: 2%;
-  margin-top: 0%;
-  margin-left: 19%; */
 
 }
 
